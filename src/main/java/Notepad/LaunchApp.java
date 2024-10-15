@@ -20,7 +20,8 @@ public class LaunchApp {
             // Connect to the running WinAppDriver instance
            WindowsDriver<WindowsElement> driver = new WindowsDriver<WindowsElement>(new URL("http://127.0.0.1:4723"),capabilities);
             Thread.sleep(5000);
-            driver.quit();
+            driver.quit();    
+            
 
         }
     }
